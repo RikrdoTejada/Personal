@@ -21,7 +21,8 @@ p.lorem{
 
 .title{
   position: relative;
-  border:solid black 1px;
+  border-left: solid black 1px;
+  border-bottom: solid black 1px;
   padding: 7px;
   float: right;
 }
