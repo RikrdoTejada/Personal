@@ -1,0 +1,39 @@
+
+#n1{
+	border-top: solid black 2px;
+}
+
+#Title{
+	margin-bottom: 2.5%;
+}
+
+#Title-row{
+	padding-top: 1%;
+}
+
+.navbar{
+	bottom:8px;
+}
+
+.nav-item{
+	border-bottom:solid black 2px;
+	width: 100%;
+}
+
+.container {
+	border:solid black 2px;
+	background-color: gray;	
+}
+
+.container-fluid {
+	border:solid black 2px;
+	background-color: gray;	
+}
+
+@media (max-width: 575px) { 
+	.container{
+		width: 82.5%;
+	}
+
+ }
+
