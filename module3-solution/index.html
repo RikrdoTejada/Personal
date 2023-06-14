@@ -87,5 +87,19 @@ Ut congue dictum tellus viverra sagittis. Sed commodo nulla iaculis lectus congu
 
 </div>
 
+<script type="text/javascript">
+  function Dog(name) {
+  this.name = name;
+}
+
+Dog.prototype.bark = function () {
+  console.log(this.name + " likes barking! Bark!");
+}
+
+var max = new Dog("Max", "Buddy");
+max.bark();
+</script>
+
+
 </body>
 </html>
